@@ -5,7 +5,7 @@ const About = () => {
     <section id="about" className="section-about">
         <div className="row about-content">
             <div className="col-7 offset-3">
-            <Accordion defaultActiveKey="0">
+            <Accordion defaultActiveKey="0" flush>
   <Accordion.Item eventKey="0">
     <Accordion.Header>Accordion Item #1</Accordion.Header>
     <Accordion.Body>
